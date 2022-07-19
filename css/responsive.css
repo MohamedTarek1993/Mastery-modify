@@ -21,7 +21,7 @@
    
   }
   .hero_section .swiper .swiper-slide .text_slider {
-    right: 9%;
+    ssss: 9%;
     width: 70%;
     top: 20%;
   }
@@ -37,6 +37,9 @@
   .hero_section .swiper .swiper-slide .img img{
     animation:unset
   }
+  .inquery_section form .form-check-inline{
+    width: 40%;
+   }
  
 }
 
@@ -53,7 +56,7 @@
   }
   .hero_section .swiper .swiper-slide .text_slider p {
     font-size: 1.5rem;
-    padding-left: 12%;
+    padding-right: 12%;
   }
   .hero_section .swiper .swiper-slide .text_slider .button .btn {
     width: 70%;
@@ -117,7 +120,7 @@
    width: 10%;
  }
  .dropdown-menu[data-bs-popper]{
-   left: 45%;
+   right: 45%;
  }
  .our_vision .boxes .box::before{
    top: 35%;
@@ -127,6 +130,9 @@
  }
  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover::after{
     animation-duration: .1s !important;
+ }
+ .inquery_section form .form-check-inline{
+  width: 40%;
  }
  
 }
@@ -174,7 +180,7 @@
     font-size: 1rem;
   }
   .hero_section .swiper .swiper-slide .text_slider{
-    right: 15%;
+    ssss: 15%;
     top: 30%;
   }
   .hero_section .swiper .swiper-slide .text_slider .button{
@@ -209,4 +215,10 @@
   header .content h1{
     font-size: 3rem;
   }
+  .inquery_section form .form-check-inline{
+    width: 50%;
+   }
+   .regulation_section .search_form .icon_search i{
+    opacity: 0;
+   }
 }
