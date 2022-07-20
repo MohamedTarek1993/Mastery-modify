@@ -17,13 +17,16 @@
   }
   .navbar .navbar-collapse .navbar-nav .nav-item .dropdown_service {
     width: 400px;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
    
   }
   .hero_section .swiper .swiper-slide .text_slider {
-    ssss: 9%;
+    left: 14%;
     width: 70%;
-    top: 20%;
+    top: 40%;
+  }
+  .hero_section .swiper .swiper-slide .img{
+    height: 500px;
   }
   .team_section
     .swiper
@@ -40,13 +43,25 @@
   .inquery_section form .form-check-inline{
     width: 40%;
    }
+    iframe{
+    width: 100% !important;
+   }
+   .navbar .navbar-collapse .navbar-nav .nav-item .nav-link , .navbar.home .navbar-collapse .navbar-nav .nav-item .nav-link{
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-size: 1rem;
+   }
+   .navbar .navbar-collapse .inquery_btn .first , .navbar.home .navbar-collapse .inquery_btn .first{
+    padding: 6% 5%;
+    font-size: .9rem;
+   }
  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (max-width: 1023.98px) {
   .navbar-collapse {
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
   }
   .service_section .content {
     margin-bottom: 9%;
@@ -120,7 +135,8 @@
    width: 10%;
  }
  .dropdown-menu[data-bs-popper]{
-   right: 45%;
+   /* right: 0%; */
+   left: 300px;
  }
  .our_vision .boxes .box::before{
    top: 35%;
@@ -134,7 +150,44 @@
  .inquery_section form .form-check-inline{
   width: 40%;
  }
+ .about_us .main-title{
+  justify-content: center;
+  align-items: center;
+  margin-inline-end: 0;
+ }
+ .about_us .main-title p{
+  padding-inline-end: 0;
+  text-align: center;
+ }
+ .about_us .vision_container{
+  padding: 2% 0;
+ }
+ .about_us .button{
+  justify-content: center;
+ }
+ .about_us .img{
+  margin-top: 5%;
+  height: 13.938rem;
+ }
+ .our_service .service_boxes .box{
+  width: 31%;
+ }
+ footer .expert{
+  margin-bottom: 3%;
+ }
+ footer .expert p{
+  padding: 3% 0;
+ }
+ .navbar.home .navbar-collapse .navbar-nav{
+  width: 100%;
+ }
+ .navbar.home .navbar-collapse .inquery_btn{
+  width: 100%;
+ }
+ .navbar .navbar-collapse .inquery_btn .first , .navbar.home .navbar-collapse .inquery_btn .first{
+  padding: 2% 5%;
  
+ }
 }
 /* Extra small devices (phones, 767px and down) */
 @media only screen and (max-width: 767.98px) {
@@ -161,7 +214,11 @@
     padding: 5% 0;
   }
   .main-title h2 {
-    font-size: 1.25rem;
+    font-size: 1.25rem !important;
+  }
+  .main-title p{
+    font-size: 1rem !important;
+
   }
   .main-title p {
     padding: 2% 5%;
@@ -180,7 +237,7 @@
     font-size: 1rem;
   }
   .hero_section .swiper .swiper-slide .text_slider{
-    ssss: 15%;
+    left: 15%;
     top: 30%;
   }
   .hero_section .swiper .swiper-slide .text_slider .button{
@@ -220,5 +277,21 @@
    }
    .regulation_section .search_form .icon_search i{
     opacity: 0;
+   }
+   .our_service .service_boxes .box{
+   width: 48%;
+   }
+   .about_us .vision_container .vision .img{
+    width: 118px;
+      height: 46px;
+   }
+   .our_service .button a{
+    width: 40%;
+   }
+   .dropdown-menu[data-bs-popper]{
+    left: 144px;
+   }
+   .hero_section .swiper .swiper-slide .text_slider{
+    left
    }
 }
