@@ -8,13 +8,11 @@
 var btn = $('#button');
 var navbar = $('#navbar')
 var lang = $('.navbar  .dropdown');
-var inquery = $('.navbar  .inquery_btn ');
 $(window).scroll(function () {
   if ($(window).scrollTop() > 490) {
     btn.addClass('show');
     navbar.addClass('change');
     lang.css('display', 'none');
-    inquery.css('display', 'none');
 
   } else {
     btn.removeClass('show');
@@ -39,29 +37,3 @@ $(document).ready($(function () {
 
 
 
-//download file
-var doc = new jsPDF();
-var specialElementHandlers = {
-  '#editor': function (element, renderer) {
-    return true;
-  }
-};
-
-$('#cmd').click(function () {
-  doc.fromHTML($('#content').html(), 15, 15, {
-    'width': 270,
-    'elementHandlers': specialElementHandlers
-  });
-  doc.save('cv.pdf');
-});
-
-//=========== Active navbar Link in multi pages =============
-const currentLocation = location.href;
-const menuItem = document.querySelectorAll(".navbar-nav .nav-item .nav-link");
-const menuLength = menuItem.length;
-for (let i = 0; i < menuLength; i++) {
-  if (menuItem[i].href === currentLocation) {
-    menuItem[i].className = "nav-link active";
-  }
-}
-//=========== Active navbar Link in multi pages =============

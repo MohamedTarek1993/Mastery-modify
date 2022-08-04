@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> الرئيسية</title>
+    <title> Pick Up</title>
     <!-- main css -->
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/aos-anmite.css" />
     <!-- animation -->
     <!-- ? Favicon -->
-       <link rel="icon" href="./image/logo-icon.ico" type="image" />
+    <link rel="icon" href="./image/logo-icon.ico" type="image" />
 
     <!-- ? Favicon -->
 </head>
@@ -36,7 +36,7 @@
     <!---------------------- finish scroll-up -------------------------------------------->
 
     <!-- =========== ? NavBar =========== -->
-    <nav class="navbar home navbar-expand-lg" id="navbar">
+    <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="image/logo.png" alt="logo">
@@ -47,117 +47,21 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about-us.html"> About us</a>
+                        <a class="nav-link" href="#about-us"> About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Our Services</a>
-
-                        <!-- strat dropdown -->
-                        <ul class="dropdown_service">
-                            <li class="dropdown_item_service">
-                                <a class="dropdown_link_service" href="service.html">
-                                    <img src="image/serv col1.png" alt="service">
-                                    <h6>Law Cases</h6>
-                                </a>
-                            </li>
-                            <li class="dropdown_item_service">
-                                <a class="dropdown_link_service" href="service.html">
-                                    <img src="image/serv ico2.png" alt="service">
-                                    <h6> Contract  Drafting</h6>
-                                </a>
-                            </li>
-
-                            <li class="dropdown_item_service">
-                                <a class="dropdown_link_service" href="service.html">
-                                    <img src="image/serv ico3.png" alt="service">
-                                    <h6> Leading  Businesses</h6>
-                                </a>
-                            </li>
-
-                            <li class="dropdown_item_service">
-                                <a class="dropdown_link_service" href="service.html">
-                                    <img src="image/serv ico4.png" alt="service">
-                                    <h6>  Foreign  Investment</h6>
-                                </a>
-                            </li>
-
-                            <li class="dropdown_item_service">
-                                <a class="dropdown_link_service" href="service.html">
-                                    <img src="image/serv ico5.png" alt="service">
-                                    <h6> ريادة الأعمال</h6>
-                                </a>
-                            </li>
-
-                            <li class="dropdown_item_service">
-                                <a class="dropdown_link_service" href="service.html">
-                                    <img src="image/serv ico6.png" alt="service">
-                                    <h6>   Commercial And  Company Services</h6>
-                                </a>
-                            </li>
-
-                            <li class="dropdown_item_service">
-                                <a class="dropdown_link_service" href="service.html">
-                                    <img src="image/serv ico7.png" alt="service">
-                                    <h6>  Bankruptcy And Liquidation </h6>
-                                </a>
-                            </li>
-
-                            <li class="dropdown_item_service">
-                                <a class="dropdown_link_service" href="service.html">
-                                    <img src="image/serv ico8.png" alt="service">
-                                    <h6>  Law
-                                        Cases </h6>
-                                </a>
-                            </li>
-
-                            <li class="dropdown_item_service">
-                                <a class="dropdown_link_service" href="#">
-                                    <img src="image/serv ico9.png" alt="service">
-                                    <h6>   Contract
-                                        Drafting </h6>
-                                </a>
-                            </li>
-
-                            <li class="dropdown_item_service">
-                                <a class="dropdown_link_service" href="#">
-                                    <img src="image/serv ico10.png" alt="service">
-                                    <h6> Foreign
-                                        Investment </h6>
-                                </a>
-                            </li>
-
-                        </ul>
-                        <!-- strat dropdown -->
-
+                        <a href="#service" class="nav-link">Our Services</a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link"> legal library</a>
-                        <ul class="dropdown_service second">
-                            <li class="dropdown_item_service">
-                                <a class="dropdown_link_service" href="regulation.html">
-                                    <!-- <img src="image/serv col1.png" alt="blog"> -->
-                                    <h6>  Regulations and Regulations</h6>
-                                </a>
-                            </li>
-                            <li class="dropdown_item_service">
-                                <a class="dropdown_link_service" href="blog.html">
-                                    <!-- <img src="image/serv ico2.png" alt="BLOG"> -->
-                                    <h6> Blog</h6>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="connect.html"> Contact Us</a>
+                        <a class="nav-link" href="#connect"> Contact Us</a>
                     </li>
                 </ul>
-                <div class="inquery_btn button">
-                    <a href="inqury.html" class="btn first"> Have a question ?</a>
-                </div>
+
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
                         data-bs-toggle="dropdown" aria-expanded="false">
@@ -174,200 +78,49 @@
     <!-- =========== ? NavBar =========== -->
 
     <!---------------------- start hero section -------------------------------------------->
-    <section class="hero_section">
-        <div class="swiper mySwiper-3">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="img">
-                        <div class="overlay">
-                        </div>
-                        <img src="image/hero.png" alt="slider1">
+    <section class="hero_section" id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12" id="hero_lf">
+                    <div class="main_content_start">
+                        <h2>One Click To Create
+                            Your Own Store</h2>
+                        <p>Providing applications for restaurants and stores with great potential to facilitate
+                            e-commerce
+                            and online purchases for all application customers
+                        </p>
                     </div>
-                    <div class="text_slider">
-                        <p>Mastery Law Firm to facilitate all legal solutions</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="img">
-                        <div class="overlay">
-                        </div>
-                        <img src="image/slider5 (1).jpg" alt="slider1">
-                    </div>
-                    <div class="text_slider">
-                        <p>Mastery Law Firm to facilitate all legal solutions</p>
+                    <div class="button">
+                        <a href="#" class="btn first">Create</a>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="col-lg-6 col-md-6 col-12" id="hero_rg">
                     <div class="img">
-                        <div class="overlay">
-                        </div>
-                        <img src="image/slider5 (2).jpg" alt="slider1">
-                    </div>
-                    <div class="text_slider">
-                        <p>Mastery Law Firm to facilitate all legal solutions</p>
+                        <img src="image/hero.png" alt="hero">
+                        <img class="shape one" src="image/shape1.png" alt="shape">
+                        <img class="shape two" src="image/shape2.png" alt="shape">
+                        <img class="shape three" src="image/shape3.png" alt="shape">
+                        <img class="shape four" src="image/shape4.png" alt="shape">
                     </div>
                 </div>
-
-                <div class="swiper-slide">
-                    <div class="img">
-                        <div class="overlay">
-                        </div>
-                        <img src="image/slider5 (1).jpg" alt="slider1">
-                    </div>
-                    <div class="text_slider">
-                        <p>Mastery Law Firm to facilitate all legal solutions</p>
-                    </div>
-                </div>
-
             </div>
-            <div class="swiper-button-next"><i class="bi bi-arrow-right"></i></div>
-            <div class="swiper-button-prev"><i class="bi bi-arrow-left"></i></div>
+
+
         </div>
     </section>
 
     <!---------------------- finish hero section -------------------------------------------->
-
-    <!---------------------- start why choise us section -------------------------------------------->
-    <section class="why_choise" data-aos="fade-up" data-aos-duration="3000">
+    <!---------------------- start our client -------------------------------------------->
+    <div class="client_section">
         <div class="container">
-            <div class="main-title">
-                <img src="image/m.png" alt="logo">
-                <h2>Why Choosing Us ?</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-12">
-                    <div class="block">
-                        <h2 class="text">We Are The <br>
-                            Leading Legal Company </h2>
-                        <p class="parg">MAstery was founded on the simple yet vital principle that everyone, regardless
-                            of circumstance, is entitled to equal justice under the law. </p>
-                        <div class="call_us">
-                            <h5>Just call us. We can answer all your questions</h5>
-                            <div>
-                                <img src="image/phone.png" alt="phone">
-                                <a class="parg" href="tel:01093140277"> 0109654245125414 </a>
-                                <span>or</span>
-                                <a class="parg" href="tel:01093140277"> 010965425414 </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-6 col-12">
-                    <figure>
-                        <img src="image/service main.png" alt="">
-                    </figure>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-    <!---------------------- finish why choise us section -------------------------------------------->
-
-    <!---------------------- start our service -------------------------------------------->
-    <section class="our_service" data-aos="fade-up" data-aos-duration="3000">
-        <div class="container">
-            <div class="main-title">
-                <img src="image/m.png" alt="logo">
-                <h2>Services We Provide</h2>
-                <p>If you need any help in law cases, you will need the very best defense attorneys in KSA. We are
-                    especially skilled in the following practice areas.</p>
-
-            </div>
-            <div class="service_boxes">
-                <div class="box">
-                    <div class="content">
-                        <div class="img">
-                            <img src="image/serv4.png" alt="serve1">
-                        </div>
-                        <h6>Foreign
-                            Investment</h6>
-                        <a href="service.html"> Read More <i class="bi bi-arrow-right-short"></i></a>
-                    </div>
-
-                </div>
-                <div class="box">
-                    <div class="content">
-                        <div class="img">
-                            <img src="image/serv4.png" alt="serve1">
-                        </div>
-                        <h6>Foreign
-                            Investment</h6>
-                        <a href="service.html"> Read More <i class="bi bi-arrow-right-short"></i></a>
-                    </div>
-
-                </div>
-                <div class="box">
-                    <div class="content">
-                        <div class="img">
-                            <img src="image/serv4.png" alt="serve1">
-                        </div>
-                        <h6>Foreign
-                            Investment</h6>
-                        <a href="service.html"> Read More <i class="bi bi-arrow-right-short"></i></a>
-                    </div>
-
-                </div>
-                <div class="box">
-                    <div class="content">
-                        <div class="img">
-                            <img src="image/serv4.png" alt="serve1">
-                        </div>
-                        <h6>Foreign
-                            Investment</h6>
-                        <a href="service.html"> Read More <i class="bi bi-arrow-right-short"></i></a>
-                    </div>
-
-                </div>
-                <div class="box">
-                    <div class="content">
-                        <div class="img">
-                            <img src="image/serv4.png" alt="serve1">
-                        </div>
-                        <h6>Foreign
-                            Investment</h6>
-                        <a href="service.html"> Read More <i class="bi bi-arrow-right-short"></i></a>
-                    </div>
-
-                </div>
-                <div class="box">
-                    <div class="content">
-                        <div class="img">
-                            <img src="image/serv4.png" alt="serve1">
-                        </div>
-                        <h6>Foreign
-                            Investment</h6>
-                        <a href="service.html"> Read More <i class="bi bi-arrow-right-short"></i></a>
-                    </div>
-
-                </div>
-            </div>
-            <div class="button">
-                <a href="service.html" class="second btn"> View All</a>
-            </div>
-
-        </div>
-    </section>
-
-    <!---------------------- finish our service -------------------------------------------->
-
-
-
-    <!---------------------- start client-------------------------------------------->
-    <div class="team_section" data-aos="fade-up" data-aos-duration="3000">
-        <div class="container">
-            <div class="main-title">
-                <img src="image/m.png" alt="logo">
-                <h2> Our Clients</h2>
-                <p>If you need any help in law cases, you will need the very best defense attorneys in KSA. We are
-                    especially skilled in the following practice </p>
+            <div class="main_title_center">
+                <h2> Our Sponsers</h2>
             </div>
             <div class="swiper mySwiper-1">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="img">
-                            <img src="image/print1.png" alt="client">
+                            <img src="image/printer1.png" alt="client">
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -385,146 +138,482 @@
                             <img src="image/printer4.png" alt="client">
                         </div>
                     </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="image/printer5.png" alt="client">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="image/printer6.png" alt="client">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!---------------------- finish client-------------------------------------------->
-
-
-
-
-    <!-- Strat footer -->
-      <footer>
+    <!---------------------- finish our client -------------------------------------------->
+    <!---------------------- start feature -------------------------------------------->
+    <section class="feature_section" id="about-us">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-12 col-12">
-                    <div class="logo">
-                        <img src="image/logo.png" alt="logo">
-                    </div>
-                    <div class="expert">
-                        <p>
-                            Master Law Firm to facilitate all legal solutions through our extensive professional
-                            experience and tireless teamwork
-                        </p>
-                    </div>
-
-                    <div class="qpr" id="content">
-                        <h6> Mastery Profile</h6>
-                    </div>
-                    <div id="editor"></div>
-                    <button id="cmd"><img src="image/qpr.png" alt="qpr"> </button>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
-                        integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/"
-                        crossorigin="anonymous"></script>
-
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="comuncation_information">
-                        <h2 class="header_footer"> Addresses</h2>
-                        <div class="boxes">
-                            <div class="box">
-                                <h6>Address :</h6>
-                                <div>
-                                    <p class="parg">
-                                        Kingdom of Saudi Arabia, 6858 - 12361 Riyadh Juma Center Office 503
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="box">
-                                <h6>Phone Num: </h6>
-                                <div>
-                                    <ul>
-                                        <li>
-                                            <a class="parg" href="tel:01093140277"> 0109654245125414 </a>
-                                        </li>
-                                        <li>
-                                            <a class="parg" href="tel:01093140277"> 0109654245125414 </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="box">
-                                <h6>E-mail:</h6>
-                                <div>
-                                    <a class="parg" href="mailto:someone@yoursite.com"> mt7899@gmail </a>
-                                </div>
-                            </div>
-
+            <div class="main_title_center">
+                <h2>Our Good Features</h2>
+                <p>The Best Features we present to expand your business</p>
+            </div>
+            <div class="service_boxes">
+                <div class="box">
+                    <div class="content">
+                        <div class="img">
+                            <img src="image/feature1.png" alt="serve1">
                         </div>
-                        <ul class="social_icon">
-                            <li><a target="__blank" href="#">
-                                    <i class="bi bi-linkedin"></i>
-                                </a></li>
+                        <h6> Multiple Payment Options</h6>
+                        <p> The application enables all your customers to pay
+                            through multiple payment options such as
+                            electronic payment or upon receipt</p>
+                    </div>
 
-                            <li><a target="__blank" href="#">
-                                    <i class="bi bi-facebook"></i>
-                                </a></li>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <div class="img">
+                            <img src="image/feature2.png" alt="serve1">
+                        </div>
+                        <h6>Foreign
+                            Investment</h6>
+                        <p>The requests were divided to suit them greatly, such as the requests for delivery, the car,
+                            and the takeaway </p>
+                    </div>
 
-                            <li><a target="__blank" href="#">
-                                    <i class="bi bi-twitter"></i>
-                                </a></li>
-                                <li><a target="__blank" href="#">
-                                    <i class="bi bi-instagram"></i>
-                                </a></li>
-                        </ul>
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <!---------------------- finish feature -------------------------------------------->
+    <!---------------------- start version -------------------------------------------->
+    <section class="version_section">
+        <div class="container">
+
+            <div class="main_title_center">
+                <h2>Our Versions </h2>
+                <p> Different Versions of pickup
+                </p>
+            </div>
+
+            <div class="swiper mySwiper-2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="content">
+                                <div class="main_content_start">
+                                    <h2>Delivery representative app </h2>
+                                    <p>A special application for delivery to organize take-out orders between delivery
+                                        agents and
+                                        send them notifications of the order, address and any other notes A special
+                                        application for
+                                        delivery to organize take-out orders between delivery agents and send them
+                                        notifications of
+                                        the order, address and any other notes</p>
+                                </div>
+                                <div class="button">
+                                    <a class="first btn" href="#">Get the app</a>
+                                </div>
+                            </div>
+                            <div class="img">
+                                <img src="image/version.png" alt="version">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="content">
+                                <div class="main_content_start">
+                                    <h2>Delivery representative app </h2>
+                                    <p>A special application for delivery to organize take-out orders between delivery
+                                        agents and
+                                        send them notifications of the order, address and any other notes A special
+                                        application for
+                                        delivery to organize take-out orders between delivery agents and send them
+                                        notifications of
+                                        the order, address and any other notes</p>
+                                </div>
+                                <div class="button">
+                                    <a class="first btn" href="#">Get the app</a>
+                                </div>
+                            </div>
+                            <div class="img">
+                                <img src="image/version.png" alt="version">
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+                <div class="swiper-button-next"><i class="bi bi-arrow-right-circle"></i></div>
+                <div class="swiper-button-prev"><i class="bi bi-arrow-left-circle"></i></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!---------------------- finish version -------------------------------------------->
+
+    <!---------------------- start SERVICE -------------------------------------------->
+    <section class="service_section" id="service">
+        <div class="container">
+
+            <div class="main_title_center">
+                <h2>services we offer </h2>
+                <p> We just offer The Best Services
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="main_content_start">
+                        <h2>Delivery representative app </h2>
+                        <p>A special application for delivery to organize take-out orders between delivery agents and
+                            send them notifications of the order, address and any other notes A special application for
+                            delivery to organize take-out orders between delivery agents and send them notifications of
+                            the order, address and any other notes</p>
+                    </div>
+                    <div class="button">
+                        <a class="first btn" href="#">Get the app</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="img">
+                        <img src="image/service1.png" alt="service">
+                        <img class="border_img" src="image/before-service.png" alt="service">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="main_content_start">
+                        <h2>Customer Service App </h2>
+                        <p>A special application for delivery to organize take-out orders between delivery agents and
+                            send them notifications of the order, address and any other notes A special application for
+                            delivery to organize take-out orders between delivery agents and send them notifications of
+                            the order, address and any other notes</p>
+                    </div>
+                    <div class="button">
+                        <a class="first btn" href="#">Get the app</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="img">
+                        <img src="image/service2.png" alt="service">
+                        <img class="border_img" src="image/before-service.png" alt="service">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="main_content_start">
+                        <h2>Branches </h2>
+                        <p>A special application for delivery to organize take-out orders between delivery agents and
+                            send them notifications of the order, address and any other notes A special application for
+                            delivery to organize take-out orders between delivery agents and send them notifications of
+                            the order, address and any other notes</p>
+                    </div>
+                    <div class="button">
+                        <a class="first btn" href="#">Get the app</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="img">
+                        <img src="image/service3.png" alt="service">
+                        <img class="border_img" src="image/before-service.png" alt="service">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------- finish SERVICE -------------------------------------------->
+
+    <!---------------------- start app -------------------------------------------->
+    <section class="app_section">
+        <div class="container">
+            <div class="main_title_center">
+                <h2>Visit Our Application </h2>
+                <p> some screens from our application
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12 xz">
+                    <div class="img">
+                        <img src="image/app 1.png" alt="app">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 xz">
+                    <div class="img">
+                        <img src="image/app2.png" alt="app">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 xz">
+                    <div class="img">
+                        <img src="image/app3.png" alt="app">
+                    </div>
+                </div>
+            </div>
+
+            <div class="app_button">
+                <a href="#" target="_blank"> <img src="image/app.png" alt="app"></a>
+                <a href="#" target="_blank"> <img src="image/google2.png" alt="app"></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!---------------------- finish app -------------------------------------------->
+
+    <!---------------------- start package -------------------------------------------->
+    <section class="package_section">
+        <div class="container">
+            <div class="main_title_center">
+                <h2>Pickup Packages </h2>
+                <p>Create your store now and choose the right package later
+                </p>
+            </div>
+
+            <div class="row">
 
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="important_link">
-                        <h2 class="header_footer"> Quick Links</h2>
-                        <ul>
-                            <li><a class="parg" href="index.html" target="_blank"> Home<i
-                                        class="bi bi-arrow-right"></i></a></li>
-                            <li><a class="parg" href="about-us.html" target="_blank"> About Us <i
-                                        class="bi bi-arrow-right"></i></a></li>
-                            <li><a class="parg" href="service.html" target="_blank">Our Services <i
-                                        class="bi bi-arrow-right"></i></a></li>
-                            <li><a class="parg" href="blog.html" target="_blank"> Blog<i
-                                        class="bi bi-arrow-right"></i></a></li>
-                            <li><a class="parg" href="connect.html" target="_blank"> Contact Us <i
-                                        class="bi bi-arrow-right"></i></a></li>
-                            <li><a class="parg" href="faq.html" target="_blank">FAQ <i
-                                        class="bi bi-arrow-right"></i></a>
-                            </li>
-                            <li><a class="parg" href="privacy.html" target="_blank">Privacy Policy <i
-                                        class="bi bi-arrow-right"></i></a></li>
-                            <li><a class="parg" href="terms.html" target="_blank">Terms & Conditions <i
-                                        class="bi bi-arrow-right"></i></a></li>
-                        </ul>
+                    <div class="package_box">
+                        <div class="head">
+                            <div class="img">
+                                <img src="image/golden.png" alt="package">
+                            </div>
+                            <div class="text">
+                                <h4>Golden Package </h4>
+                                <p> <span>2200</span> LE/Month </p>
+                            </div>
+                        </div>
+                        <div class="body">
+                            <p> <i class="bi bi-check-lg"></i> All Features in Golden </p>
+                            <p> <i class="bi bi-check-lg"></i> customer service app </p>
+
+                        </div>
+
+                        <div class="button">
+                            <a class="first btn" href="#"> Choose The Package</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="package_box">
+                        <div class="head">
+                            <div class="img">
+                                <img src="image/basic.png" alt="package">
+                            </div>
+                            <div class="text">
+                                <h4>Diamond Package </h4>
+                                <p> <span>2200</span> LE/Month </p>
+                            </div>
+                        </div>
+                        <div class="body">
+                            <p> <i class="bi bi-check-lg"></i> All Features in Golden </p>
+                            <p> <i class="bi bi-check-lg"></i> customer service app </p>
+
+                        </div>
+
+                        <div class="button">
+                            <a class="first btn" href="#"> Choose The Package</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="package_box">
+                        <div class="head">
+                            <div class="img">
+                                <img src="image/golden.png" alt="package">
+                            </div>
+                            <div class="text">
+                                <h4>Diamond Package </h4>
+                                <p> <span>2200</span> LE/Month </p>
+                            </div>
+                        </div>
+                        <div class="body">
+                            <p> <i class="bi bi-check-lg"></i> All Features in Golden </p>
+                            <p> <i class="bi bi-check-lg"></i> customer service app </p>
+
+                        </div>
+
+                        <div class="button">
+                            <a class="first btn" href="#"> Choose The Package</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-lg-2 col-md-12 col-12">
-                    <blockquote class="twitter-tweet">
-                        <p lang="en" dir="ltr">Since 2007, you’ve explored the world with <a
-                                href="https://twitter.com/hashtag/StreetView?src=hash&amp;ref_src=twsrc%5Etfw">#StreetView</a>
-                            and rediscovered the places that mean the most to you. <br><br>From reliving past memories
-                            to looking ahead to new ones, here’s to 15 years. 🌎 <a
-                                href="https://t.co/lIkDn3xX0m">https://t.co/lIkDn3xX0m</a> <a
-                                href="https://t.co/A1zLTEDknR">pic.twitter.com/A1zLTEDknR</a></p>&mdash; Google Maps
-                        (@googlemaps) <a
-                            href="https://twitter.com/googlemaps/status/1529114202937229312?ref_src=twsrc%5Etfw">May 24,
-                            2022</a>
-                    </blockquote>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="lower_footer">
-                    <p class="slug">masterylawfirm@2022 . All Right Reserved</p>
-                    <div>
-                        <p class="slug">Made With     by crazy idea</p><br>
-                        <p class="slug">Think Out of the box</p>
+    <!---------------------- finish package -------------------------------------------->
+
+    <!---------------------- start testiomnies -------------------------------------------->
+    <section class="testiomnies">
+        <div class="container">
+            <div class="main_title_center">
+                <h2>Our Clients </h2>
+                <p>join our client list in pick up
+                </p>
+            </div>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box_testiomnies">
+                            <div class="img">
+                                <img src="image/test1.png" alt="test">
+                            </div>
+                            <h4>Ahmed Ali</h4>
+                            <span>Manager</span>
+                            <div class="rates">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat
+                            </p>
+                        </div>
                     </div>
-                   
+
+                    <div class="swiper-slide">
+                        <div class="box_testiomnies">
+                            <div class="img">
+                                <img src="image/test1.png" alt="test">
+                            </div>
+                            <h4>Ahmed Ali</h4>
+                            <span>Manager</span>
+                            <div class="rates">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box_testiomnies">
+                            <div class="img">
+                                <img src="image/test1.png" alt="test">
+                            </div>
+                            <h4>Ahmed Ali</h4>
+                            <span>Manager</span>
+                            <div class="rates">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!---------------------- finish testiomnies -------------------------------------------->
+
+    <!---------------------- start subscripe -------------------------------------------->
+    <section class="subscripe_section" id="connect">
+        <div class="container">
+            <div class="box">
+                <img src="image/subscripe.png" alt="subscripe">
+                <div class="main_title_center">
+                    <h6>Contact Us</h6>
+                    <p>If you have a request, you can contact us</p>
+                </div>
+                <form action="#">
+                    <input class="form-control" type="email" placeholder="Enter the email">
+                    <button class="btn" type="submit"> <i class="bi bi-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!---------------------- finish subscripe -------------------------------------------->
+    <!---------------------- start footer -------------------------------------------->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="logo_footer">
+                        <img src="image/logo.png" alt="logo">
+                    </div>
+                    <p class="about">Pickup is an electronic platform
+                        that provides a special application
+                        for your restaurant (or online store) </p>
+                    <ul class="social_icon">
+                        <li><a href="#" target="_blank"><i class="bi bi-facebook"></i> </a></li>
+                        <li><a href="#" target="_blank"> <i class="bi bi-linkedin"></i></a></li>
+                        <li><a href="#" target="_blank"> <i class="bi bi-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h2 class="header_footer">pages</h2>
+                    <ul class="imprtant_links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Features</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#connect">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h2 class="header_footer">Other Links </h2>
+                    <ul class="imprtant_links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Features</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#connect">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h2 class="header_footer">Contact Us </h2>
+                    <ul class="imprtant_links">
+                        <li> <a href="tel:01093140277"> 0109654245125414 </a></li>
+                        <li> <a href="tel:01093140277"> 0109654245125414 </a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </footer>
+    <div class="lower_footer">
+        <p>All copyright reserved@pickup 2022</p>
+    </div>
+    <!---------------------- finish footer -------------------------------------------->
+
+
+
+    <!-- Strat footer -->
+
     <!-- finish footer -->
 
     <!-- main js -->
@@ -547,26 +636,7 @@
     </script>
     <!-- animation -->
 
-
-    <!-- hero slider -->
-    <script>
-        var swiper = new Swiper(".mySwiper-3", {
-            loop: true,
-            spaceBetween: 30,
-            effect: "fade",
-            autoplay: {
-                delay: 2200,
-                disableOnInteraction: false,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    </script>
-    <!-- hero slider -->
-
-    <!-- team slider -->
+    <!-- client slider -->
     <script>
         var swiper = new Swiper(".mySwiper-1", {
             slidesPerView: 5,
@@ -577,10 +647,6 @@
                 disableOnInteraction: false,
             },
             breakpoints: {
-                375:{
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                },
                 640: {
                     slidesPerView: 2,
                     spaceBetween: 20,
@@ -596,7 +662,77 @@
             },
         });
     </script>
-    <!-- team slider -->
+    <!-- client slider -->
+
+    <!-- testiomnies slider -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            loop: true,
+            // autoplay: {
+            //     delay: 2500,
+            //     disableOnInteraction: false,
+            // },
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+    <!-- testiomnies slider -->
+    <!-- version slider -->
+    <script>
+        var swiper = new Swiper(".mySwiper-2", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+    <!-- version slider -->
+
+    <script>
+        //animation
+        const hero = document.getElementById('hero');
+        function checkBoxes() {
+            const triggerBottom = window.innerHeight / 5 * 4;
+            boxes.forEach(box => {
+                const boxTop = box.getBoundingClientRect().top
+
+                if (boxTop < triggerBottom) {
+                    box.classList.add('animate_hero');
+                } else {
+                    box.classList.remove('animate_hero');
+                }
+            })
+        }
+
+
+
+
+
+
+    </script>
 </body>
 
 </html>
